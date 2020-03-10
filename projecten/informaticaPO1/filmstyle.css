@@ -1,0 +1,28 @@
+Body { 
+	background-image: url('achtergrond.jpg');
+	Font-family: rockwell arial;
+	}
+H1 { 
+	Font-size: 30pt;
+	color: Blue;
+		}
+
+H3	{
+	Font-size: 25pt;
+	color: Darkblue;
+	}
+table{ 
+	border-collapse: collapse;
+	width: 350px;
+	font-size: 20pt;
+	background-color: skyblue;
+	}
+
+article {
+	float: right;
+	margin: 100px;
+	}
+table td {
+	padding: 5px 10px 5px 10px;
+	border: 1px solid black;
+	}

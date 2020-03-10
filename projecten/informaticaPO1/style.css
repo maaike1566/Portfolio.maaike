@@ -1,0 +1,93 @@
+Body {
+ background-image: url('achtergrond.jpg');
+ Font-family: Rockwell, Arial;}
+ H1 {
+ Font-family: Rockwell,arial;
+font-size: 30pt;
+text-align:center;
+Font-style:italic;
+color:Darkblue;}
+H2{ 
+font-size: 15pt;
+text-align: center; } 
+p {
+font-size: 14pt;
+Font-weight: Bold;
+color: black;
+ }
+ol li { 
+Font-size: 14pt;
+color: Darkblue;
+Font-weight: Bold;
+} 
+ul {
+font-size:13pt; 
+color:Darkblue;}
+ol {
+font-size:13pt;
+color:darkblue; }
+dl {
+font-size:13pt; }
+dt { color:darkblue; }
+
+#video {
+	width: 300px;
+	height: 200px;
+	}
+		
+wrapper {
+	width: 900px;
+	margin: auto;
+ }
+article img {
+		width:240px;
+		float: right;
+		padding: 10px;
+		margin: 10px;
+		}
+#afbeelding {
+	width: 300px;
+	float: right;
+	margin: 60px 530px 0px 50px;
+	
+	}
+header { 
+	float: right;
+	padding: 5px 30px 5px 30px;
+	margin: 10px 170px 10px 10px;
+ }
+
+nav { 
+	background-color: grey;
+	width: 300px;
+	margin: 30px;
+	padding: 0px 10px 5px 10px;
+	float: left;
+	}
+header h2{
+		padding: 3px 5px 3px 5px: } 
+#sidebar {
+	background-color: grey;
+	width: 300px;
+	margin: 30px;
+	padding: 5px 10px 5px 10px;
+	float: bottom-left;
+		}
+article {
+	background-color: grey; 
+	width: 500px;
+	padding: 10px 10px 10px 30px;
+	margin: 10px 50px 10px 30px;
+	float: right;
+		}
+.picture {
+	float: left;
+	margin: 80px 90px 30px 110px;
+	}
+article p {
+	color: black;
+	font-size: 13pt;
+	padding: 0px 0px 20px 0px;
+			}
+article h2 {
+	padding: 10px 20px 10px 0px; }

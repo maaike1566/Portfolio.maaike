@@ -1,0 +1,153 @@
+/*1.hoe de header mooi kan aanlopen tegen de randjes+footer
+2. hoe de current doorloopt in de volgende lijn
+3. */
+
+
+
+/*@media screen and (min-width: 800px) {*/
+    h1{
+    font-size: 3.6em;
+    text-align: center;
+    padding-bottom: 12px;
+    padding-right: 90px;
+   
+}
+    body {
+    font-family: sans-serif;
+    line-height: 2.4em;
+    margin: 0;
+}
+
+header {
+/*  sceneone.nl/tips_tricks/fixed_header.php */
+    position: fixed;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: #4d8489;
+    margin: 0;
+    border-bottom: 1px solid black;
+    
+}
+h1, h2, h3, a {
+    font-family: serif;
+}
+
+ header img {
+    width: 10%;
+    float:left;
+    margin: 15px;
+    margin-top: 0px;
+}
+nav{
+    width: 100%;
+    text-align: center;
+       
+}
+nav ul {
+    padding: 0px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 2.6em;
+/*    background-color: #0003;*/
+    padding: 10px 25px;
+    margin: 10px;
+    
+/*    border-radius: 20px;*/
+    color: #000;
+}
+.current {
+    border: 1px solid black;
+    border-bottom: none;
+
+    
+    
+}
+
+article {
+/*  waarom pakt hij de achtergrond foto alleen op deze manier? 
+    en is de html hiervan correct?*/
+    width: 100%;
+    background-image: url("../images/hondenoprij.jpg");
+    background-repeat : no-repeat;
+    background-size: 100%; 
+    background-position: 0px 200px;
+    padding-top: 480px;
+    text-align: left;
+    margin-top: 0;
+    font-size: 2.3em;
+
+}
+
+article a{
+    
+    font-size: 1.4em;
+    background-color: #4d8489;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 25px;
+    margin: 40px;
+    border-radius: 20px;
+    
+}
+
+
+
+h2{
+    font-size: 2.5em;
+    margin: 100px;
+
+   
+    
+}
+h3 {
+    font-size: 1.3em;
+    margin-bottom:5px;
+    margin-left: 100px;
+    
+}
+p{
+    
+    margin-top: 0;
+    margin-left: 100px;
+}
+figure {
+    float:right;
+    width: 40%;
+    margin: 20px;
+    margin-top: 40px;
+    margin-right: 40px;
+    
+    
+}
+figure img{
+    width: 100%;
+}
+
+figure figcaption{
+    font-size: 0.2em;
+    line-height: 1em;
+    width: 100%;
+    border: 1px solid black;
+    
+    
+}
+
+footer{
+    font-size: 1.9em;
+    background-color:#000;
+    padding: 100px;
+  
+}
+
+@media (max-width: 480px) {
+
+    body {
+        background-color: green;
+    }
+}
+
